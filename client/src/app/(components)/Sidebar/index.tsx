@@ -111,7 +111,7 @@ const Sidebar = () => {
             label="Settings" 
             isCollapsed={isSidebarCollapsed}
         />
-                <SidebarLink 
+        <SidebarLink 
             href="/expenses" 
             icon={CircleDollarSign} 
             label="Expenses" 
