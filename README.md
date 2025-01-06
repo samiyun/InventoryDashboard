@@ -1,2 +1,2 @@
-# InventoryDashboard
+# Inventory Dashboard for StockS
 # Test
