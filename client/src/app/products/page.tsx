@@ -80,7 +80,13 @@ const Products = () => {
               className="border shadow rounded-md p-4 max-w-full w-full mx-auto"
             >
               <div className="flex flex-col items-center">
-                img
+                <Image
+                  src={`/app/images/product${Math.floor(Math.random() * 4) + 1}.jpg`}
+                  alt={product.name}
+                  width={150}
+                  height={150}
+                  className="rounded-lg w-14 h-14"
+                />
                 <h3 className="text-lg text-gray-900 font-semibold">
                   {product.name}
                 </h3>
