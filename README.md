@@ -7,13 +7,13 @@ Start and Completed: `Nov 11, 2024 - Jan 04, 2025`.
 ## Features
 * Simple interface, dark mode toggle, notifications tab (work in progress), settings
 * Dashboard page displaying:
-    -> Popular Products,
-    -> Sales Summaries,
-    -> Purchase Summaries,
-    -> Customer Growth,
-    -> Expenses,
-    -> Due and Pending orders,
-    ->  Sales and Discounts
+    - Popular Products,
+    - Sales Summaries,
+    - Purchase Summaries,
+    - Customer Growth,
+    - Expenses,
+    - Due and Pending orders,
+    -  Sales and Discounts
 - Question Confirmation to help player finalize question choice
 - Question RNG System; questions may generate randomly on every run
 - Lifelines/Help buttons made with lambda functions with RNG system 
