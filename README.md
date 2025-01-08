@@ -1,8 +1,6 @@
 # Inventory Dashboard for StockS
 
-A full stack project created from scratch using Nextjs, Redux, Node, TailwindCSS, MUI, Prisma, and SQL.
-Using tools like Postman and PostgreSQL to help create the backend
-Created sample data to simulate a ecommerce platform
+A full stack project created from scratch using Nextjs, Redux, Node, TailwindCSS, MUI, Prisma, and SQL. Used tools like Postman and PostgreSQL to help create the backend. Created sample data to simulate an ECommerce platform
 
 Start and Completed: `Nov 11, 2024 - Jan 04, 2025`.
 
