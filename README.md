@@ -1,47 +1,66 @@
 # Inventory Dashboard for StockS
 
+A full stack project created from scratch using Nextjs, Redux, Node, TailwindCSS, MUI, Prisma, and SQL.
+Using tools like Postman and PostgreSQL to help create the backend
+Created sample data to simulate a ecommerce platform
 
 Start and Completed: `Nov 11, 2024 - Jan 04, 2025`.
 
-
 ## Features
-* Simple interface, dark mode toggle, notifications tab (work in progress), settings
-* Dashboard page displaying:
-    - Popular Products,
-    - Sales Summaries,
-    - Purchase Summaries,
-    - Customer Growth,
-    - Expenses,
-    - Due and Pending orders,
-    -  Sales and Discounts
-- Question Confirmation to help player finalize question choice
-- Question RNG System; questions may generate randomly on every run
-- Lifelines/Help buttons made with lambda functions with RNG system 
-- Assets from the game in attempt to replicate realism
-- Money system; gain money per round
+* Simple interface
+    - Dark theme
+    - Settings
+    - Easy navigation
+    - Sidebar toggle
+    - Search bar
+      
+* Dashboard Page:
+    - Popular Products
+    - Sales Summaries
+    - Purchase Summaries
+    - Customer Growth
+    - Expenses
+    - Due and Pending orders
+    - Sales and Discounts.
 
-Please note, you must install Python and the required libraries before running the program:
+* Inventory Page:
+    - List of all items currently avaiable in stock
+
+* Products Page:
+    - Lists all product details
+    - Create product functionality
+    - Item rating
+
+* Users Page:
+    - Lists all user data from database
+    - Contains Id, Name, Email
+ 
+* Settings Page:
+    - Change Email
+    - Change Name 
+    - Change Language
+    - Toggles for notifications and dark theme
+
+* Expenses Page:
+    - Uses a PiChart to display company expenses
+    - Category and Date filter:
+        -  Office, Professional, Salaries
+        -  Start to End dates
+    
+Please note, you must install the server to use this: 
 ```bash
-pip install <library name>
 
--- required libraries:
+https://github.com/samiyun/server
 
-pip install tkinter
+open your workspace and have the server folder outside of the InventoryDashboard folder:
 
-* the library "random" should be preinstalled with python
+run the command "npm run dev" in your terminal to host the backend, localhost:8000
+
 ```
-## Learn More
+## Work in progress features
 
-To learn more about Python, take a look at the following resources:
+Here is a list of what I plan to add in the future:
 
-- [Python Installation](https://www.python.org/downloads/) - installing python with listed compatibilities.
-- [Python Documentation](https://www.python.org/doc/) - learn about Python features.
-- [TKinter Documentation](https://docs.python.org/3/library/tk.html) - learn about tkinter features and documentation
-
-You can also check out [the Python GitHub page(https://github.com/python)
-
-
-
-
-
+- Working notifications system (e.g: "Product # sold!")
+- StockS Ecommerce Website (Just to expand the projects horizons)
 
